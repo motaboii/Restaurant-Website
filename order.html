@@ -1,0 +1,131 @@
+<!-- <?php
+session_start();
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Order Page</title>
+  </head>
+  <body>
+    <div class="page">
+      <div id="id1">
+        <ul>
+          <li>
+            <a>Starters</a>
+            <ul>
+              <li><a>Sandwich</a></li>
+              <li><a>Chicken Lollipop</a></li>
+              <li><a>Paneer Tikka</a></li>
+              <li><a>Pasta</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>Main Course</a>
+            <ul>
+              <li><a>Chicken Handi</a></li>
+              <li><a>Rumali Roti</a></li>
+              <li><a>Dal Fry</a></li>
+              <li><a>Dosa</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>Desert</a>
+            <ul>
+              <li><a>Sundae Cup Icecream</a></li>
+              <li><a>Pastry</a></li>
+              <li><a>Falooda</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <form action="order.php" method="post">
+        <div class="order">
+          <center style="font-size: 40px; font-weight: bold">
+            <h2>. .</h2>
+          </center>
+        </div>
+        <br /><br />
+        <div id="id4">
+          <div id="shadow">
+            <img
+              src="https://images.alphacoders.com/862/thumbbig-862639.webp"
+              alt="image not available"
+            />
+            <div class="c2">
+              <h3>Dosa and Idli</h3>
+              <h3>Rs. 300</h3>
+              <input type="number" name="D1" value="0" min="0" />
+            </div>
+          </div>
+
+          <div id="shadow">
+            <img
+              src="https://images2.alphacoders.com/449/thumbbig-449480.webp"
+              alt="image not available"
+            />
+            <div class="c2">
+              <h3>Chocolate Icecream</h3>
+              <h3>Rs. 100</h3>
+              <input type="number" name="D2" value="0" min="0" />
+            </div>
+          </div>
+
+          <div id="shadow">
+            <img
+              src="https://images8.alphacoders.com/670/thumbbig-670530.webp"
+              alt="image not available"
+            />
+            <div class="c2">
+              <h3>Pasta</h3>
+              <h3>Rs. 150</h3>
+              <input type="number" name="D3" value="0" min="0" />
+            </div>
+          </div>
+        </div>
+
+        <div id="id4">
+          <div id="shadow">
+            <img
+              src="https://images3.alphacoders.com/670/thumbbig-670514.webp"
+              alt="image not available"
+            />
+            <div class="c2">
+              <h3>Biryani</h3>
+              <h3>Rs. 180</h3>
+              <input type="number" name="D4" value="0" min="0" />
+            </div>
+          </div>
+
+          <div id="shadow">
+            <img
+              src="https://images.alphacoders.com/583/thumbbig-583490.webp"
+              alt="image not available"
+            />
+            <div class="c2">
+              <h3>Tacos</h3>
+              <h3>Rs. 200</h3>
+              <input type="number" name="D5" value="0" min="0" />
+            </div>
+          </div>
+
+          <div id="shadow">
+            <img
+              src="https://c4.wallpaperflare.com/wallpaper/93/821/247/cuisine-food-india-indian-wallpaper-preview.jpg"
+              alt="image not available"
+            />
+            <div class="c2">
+              <h3>Paneer Tikka</h3>
+              <h3>Rs. 200</h3>
+              <input type="number" name="D6" min="0" value="0" />
+            </div>
+          </div>
+        </div>
+        <center><input type="submit" value="SUBMIT ORDER" /></center>
+      </form>
+    </div>
+  </body>
+</html>
